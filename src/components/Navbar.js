@@ -15,7 +15,7 @@ const Navbar = (props) => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         {/* <img src={logo} alt="logo" style={{ width: "50px" }} /> */}
-        <p className="logo">Or Turi</p>
+        <p className="logo">Dar Ben Shitrit</p>
       </div>
       <ul className="hidden md:flex">
         <li>
@@ -28,21 +28,16 @@ const Navbar = (props) => {
             About
           </Link>
         </li> */}
-        <li>
+        {/* <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        {/* <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li> */}
       </ul>
       <div onClick={handleClick} className="md:hidden z-10 text-4xl">
         {nav ? <FaTimes /> : <FaBars />}
@@ -111,7 +106,7 @@ const Navbar = (props) => {
         <ul className="flex flex-col gap-1">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-900 rounded-lg">
             <a
-              href="https://www.linkedin.com/in/or-turi-ab988276/"
+              href="https://www.linkedin.com/in/dar-ben-shitrit-119894203"
               target="__blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
@@ -121,7 +116,7 @@ const Navbar = (props) => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-lg">
             <a
-              href="https://github.com/ortori"
+              href="https://github.com/DarBS96?tab=repositories"
               target="__blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
@@ -131,7 +126,7 @@ const Navbar = (props) => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-700 rounded-lg">
             <a
-              href="mailto:ortori@gmail.com"
+              href="mailto:Bsdar00@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email
@@ -140,8 +135,8 @@ const Navbar = (props) => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded-lg">
             <a
-              href="https://docs.google.com/document/d/1YZh5UVhxdkIDTNWUZdTSf_j07Jph3FcN/edit?usp=sharing&ouid=103723995000046318931&rtpof=true&sd=true"
-              target="__blank"
+              href=""
+              target="blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume

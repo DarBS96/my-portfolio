@@ -3,27 +3,42 @@ import { Link } from "react-scroll";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import ProfileImg from "../assets/profile-img2.jpg"
 
 const Home = () => {
   console.log(process.env);
   return (
     <div
       name="home"
-      className="bg-[#0a192f] w-full h-screen md:pl-[80px] pt-40"
+      className="bg-[#0a192f] w-full flex h-screen md:pl-[80px] pt-40"
     >
       <div className="max-w-[1000px] max-auto px-8 flex flex-col justify-center h-full">
-        {/* <p className="text-pink-600">Hi, my name is</p> */}
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Or Turi
+          Dar Ben Shitrit
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] py-3">
           Full Stack web developer
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
-          {" "}
-          I’m a full-stack web developer specializing in building web
-          applications from front to back using modern web technologies such as
-          React with Redux, Node.js, HTML, CSS, JavaScript and PostgreSQL.
+        <p className="text-[#8892b0] sm:text-2xl py-4 max-w-[700px]">
+          Hey there everyone, I am happy to welcome you here to my website! My
+          name is Dar, and I am passionate about web development and bringing
+          new and innovative projects to the world.
+          <br /> About a year ago, I was exposed to web development and fell in
+          love with this unlimited field, especially its ability to express and
+          combine creativity and logic.
+          <br /> I graduated from{" "}
+          <a
+            class="developer-institute"
+            href="https://developers.institute/en/"
+          >
+            "Developers.Institute"
+          </a>{" "}
+          and I have experience building reliable and elegant JavaScript
+          websites and applications. I also have obtained my bachelor's degree
+          in Social Work studies. I am devoted to deepening my skills as a web
+          developer, which has brought me big excitement to be in this
+          environment, constantly learning as I love the <i>challenge</i> of
+          creating new things.
         </p>
         <Link to="work" smooth={true} duration={500} className="w-max">
           <div>
@@ -79,6 +94,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
+      <img src={ProfileImg} alt="profile-img" />
     </div>
   );
 };
