@@ -37,10 +37,21 @@
 
 .home-description-title {
     font-weight: 600;
-    color: rgb(145, 155, 172);
+    color: rgb(209 213 219);
 }
 
 .about-me {
     color: rgb(209 213 219);
     font-size: 20px !important;
+}
+
+
+/* .h-screen {
+    height: 100vh;
+} */
+
+@media screen and (max-width: 600px) {
+    [name="home"] {
+        padding-top: 5rem !important;
+    }
 }

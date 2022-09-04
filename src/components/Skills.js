@@ -9,7 +9,7 @@ import postgresql from "../assets/postgresql.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#874C62] text-gray-300 h-screen w-full">
+    <div name="skills" className="bg-[#874C62] text-gray-300 xl:h-screen w-full">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col h-full w-full justify-center">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#c29797]">

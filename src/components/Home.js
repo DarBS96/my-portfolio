@@ -9,15 +9,12 @@ import ".././index.css"
 const Home = () => {
   console.log(process.env);
   return (
-    <div
-      name="home"
-      className="bg-[#874C62] w-full flex h-screen md:pl-[80px] pt-40"
-    >
-      <div className="max-w-[1000px] max-auto px-8 flex flex-col justify-center h-full">
+    <div name="home" className="bg-[#874C62] w-full flex md:pl-[80px] pt-40">
+      <div className="max-w-[1000px] max-auto px-8 flex flex-col justify-center">
         {/* <h1 className="text-4xl sm:text-7xl text-[#ccd6f6] home-name-title ">
           Dar Ben Shitrit
         </h1> */}
-        <h1 className="text-4xl sm:text-7xl text-[#8892b0] py-3 home-description-title">
+        <h1 className="text-4xl sm:text-7xl text-[#ccd6f6] py-3 home-description-title">
           Full Stack web developer
         </h1>
         <p className=" sm:text-2xl py-4 max-w-[700px] about-me">
@@ -55,7 +52,7 @@ const Home = () => {
           <ul className="flex flex-col gap-3">
             <li className="w-[160px] min-h-[60px] flex justify-between items-center  duration-300 bg-blue-900 rounded-lg">
               <a
-                href="https://www.linkedin.com/in/or-turi-ab988276/"
+                href="https://www.linkedin.com/in/dar-ben-shitrit-119894203"
                 target="__blank"
                 className="flex justify-between items-center w-full text-gray-300"
               >
@@ -65,7 +62,7 @@ const Home = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center  duration-300 bg-[#333333] rounded-lg">
               <a
-                href="https://github.com/ortori"
+                href="https://github.com/DarBS96?tab=repositories"
                 target="__blank"
                 className="flex justify-between items-center w-full text-gray-300"
               >
@@ -75,7 +72,7 @@ const Home = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center  duration-300 bg-yellow-700 rounded-lg">
               <a
-                href="mailto:ortori@gmail.com"
+                href="mailto:Bsdar00@gmail.com"
                 className="flex justify-between items-center w-full text-gray-300"
               >
                 Email
@@ -84,7 +81,7 @@ const Home = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center  duration-300 bg-[#6fc2b0] rounded-lg">
               <a
-                href="https://docs.google.com/document/d/1YZh5UVhxdkIDTNWUZdTSf_j07Jph3FcN/edit?usp=sharing&ouid=103723995000046318931&rtpof=true&sd=true"
+                href="CVDarBenShitrit"
                 target="__blank"
                 className="flex justify-between items-center w-full text-gray-300"
               >
@@ -95,7 +92,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <img src={ProfileImg} alt="profile-img" />
+      {/* <img src={ProfileImg} alt="profile-img" /> */}
     </div>
   );
 };

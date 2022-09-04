@@ -1,13 +1,13 @@
 import calendarAppImg from "../assets/calendarApp.jpg";
 import nutritionAppImg from "../assets/nutritionApp.jpg";
 import feelEat from "../assets/feeleat.png";
-import Resume from "../assets/CVDarBenShitrit.pdf"
+// import Resume from "../assets/CVDarBenShitrit.pdf"
 
 const Work = () => {
   return (
     <div
       name="work"
-      className="bg-[#874C62] w-full md:min-h-screen text-gray-300 py-20"
+      className="bg-[#874C62] w-full md:min-h-screen text-gray-300 "
     >
       <div className="max-w-[810px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
