@@ -19,7 +19,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-5">
           <div
             style={{ backgroundImage: `url(${feelEat})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#f1d8cd] group container rounded-md justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 rounded-md duration-200">
               <div className="text-center">
@@ -46,7 +46,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${calendarAppImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#f1d8cd] group container rounded-md justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 rounded-md duration-200">
               <div className="text-center">
@@ -76,7 +76,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${nutritionAppImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#f1d8cd] group container rounded-md justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 rounded-md duration-200">
               <div className="text-center">
@@ -108,7 +108,7 @@ const Work = () => {
             style={{
               backgroundImage: `url(https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
             }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#f1d8cd] group container rounded-md justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 rounded-md duration-200">
               <div className="text-center">
