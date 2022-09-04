@@ -1,37 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-
 @layer base {
-  body {
-    @apply font-[Raleway];
-  }
-  li {
-    @apply px-4;
-    @apply cursor-pointer;
-  }
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
 }
 
 .content-div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
 }
 
 .content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    rgba(149, 129, 228, 0.8)
-  ) !important;
+    background-image: linear-gradient( to right, rgb(255 209 112 / 83%), rgb(142 89 120 / 80%)) !important;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap");
-
 .logo {
-  font-size: 25px;
-  font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 25px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+
+/* .home-name-title {
+    font-weight: 600;
+    color: #f1d8cd;
+} */
+
+.home-description-title {
+    font-weight: 600;
+    color: rgb(145, 155, 172);
+}
+
+.about-me {
+    color: rgb(209 213 219);
+    font-size: 20px !important;
 }

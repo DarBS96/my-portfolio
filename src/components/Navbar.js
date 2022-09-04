@@ -12,7 +12,7 @@ const Navbar = (props) => {
     props.nav(nav);
   }, [nav]);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#874C62] text-gray-300">
       <div>
         {/* <img src={logo} alt="logo" style={{ width: "50px" }} /> */}
         <p className="logo">Dar Ben Shitrit</p>
@@ -28,11 +28,11 @@ const Navbar = (props) => {
             About
           </Link>
         </li> */}
-        {/* <li>
+        <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link to="work" smooth={true} duration={500}>
             Work

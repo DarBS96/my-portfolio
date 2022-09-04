@@ -4,22 +4,23 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import ProfileImg from "../assets/profile-img2.jpg"
+import ".././index.css"
 
 const Home = () => {
   console.log(process.env);
   return (
     <div
       name="home"
-      className="bg-[#0a192f] w-full flex h-screen md:pl-[80px] pt-40"
+      className="bg-[#874C62] w-full flex h-screen md:pl-[80px] pt-40"
     >
       <div className="max-w-[1000px] max-auto px-8 flex flex-col justify-center h-full">
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        {/* <h1 className="text-4xl sm:text-7xl text-[#ccd6f6] home-name-title ">
           Dar Ben Shitrit
-        </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] py-3">
+        </h1> */}
+        <h1 className="text-4xl sm:text-7xl text-[#8892b0] py-3 home-description-title">
           Full Stack web developer
-        </h2>
-        <p className="text-[#8892b0] sm:text-2xl py-4 max-w-[700px]">
+        </h1>
+        <p className=" sm:text-2xl py-4 max-w-[700px] about-me">
           Hey there everyone, I am happy to welcome you here to my website! My
           name is Dar, and I am passionate about web development and bringing
           new and innovative projects to the world.

@@ -17,7 +17,7 @@ function App() {
       <div className={nav ? "pointer-events-none" : ""}>
         <Home />
         {/* <About /> */}
-        {/* <Skills /> */}
+        <Skills />
         <Work />
       </div>
       {/* <Contact /> */}
