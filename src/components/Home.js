@@ -14,7 +14,7 @@ const Home = () => {
         {/* <h1 className="text-4xl sm:text-7xl text-[#ccd6f6] home-name-title ">
           Dar Ben Shitrit
         </h1> */}
-        <h1 className="text-4xl sm:text-7xl text-[#ccd6f6] py-3 home-description-title">
+        <h1 className="text-4xl inline border-b-4 border-[#c29797] sm:text-7xl text-[#ccd6f6] py-3 home-description-title">
           Full Stack web developer
         </h1>
         <p className=" sm:text-2xl py-4 max-w-[700px] about-me">

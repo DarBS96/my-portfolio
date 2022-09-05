@@ -16,7 +16,7 @@ const Work = () => {
           </p>
           <p className="py-6">Check out some of my work</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-5">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-10">
           <div
             style={{ backgroundImage: `url(${feelEat})` }}
             className="shadow-lg shadow-[#f1d8cd] group container rounded-md justify-center items-center mx-auto content-div"

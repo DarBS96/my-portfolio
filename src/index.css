@@ -29,12 +29,6 @@
     font-family: "Edu VIC WA NT Beginner", cursive;
 }
 
-
-/* .home-name-title {
-    font-weight: 600;
-    color: #f1d8cd;
-} */
-
 .home-description-title {
     font-weight: 600;
     color: rgb(209 213 219);
@@ -43,6 +37,7 @@
 .about-me {
     color: rgb(209 213 219);
     font-size: 20px !important;
+    text-align: justify;
 }
 
 
@@ -53,5 +48,11 @@
 @media screen and (max-width: 600px) {
     [name="home"] {
         padding-top: 5rem !important;
+    }
+    .home-description-title {
+        font-size: 1.6rem;
+    }
+    .about-me {
+        font-size: 15px !important;
     }
 }
