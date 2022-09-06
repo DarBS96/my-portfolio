@@ -34,8 +34,7 @@ const Home = () => {
           and I have experience building reliable and elegant JavaScript
           websites and applications. I also have obtained my bachelor's degree
           in Social Work studies. I am devoted to deepening my skills as a web
-          developer, which has brought me big excitement to be in this
-          environment, constantly learning as I love the <i>challenge</i> of
+          developer, which has brought me big excitement, constantly learning as I love the <i>challenge</i> of
           creating new things.
         </p>
         <Link to="work" smooth={true} duration={500} className="w-max">
