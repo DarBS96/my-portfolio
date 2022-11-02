@@ -27,7 +27,7 @@ const Work = () => {
                   FeelEat App
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://feeleat-app.herokuapp.com/" target="__blank">
+                  <a href="https://feeleat.onrender.com" target="__blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
                       Demo
                     </button>
